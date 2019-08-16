@@ -248,15 +248,20 @@ footer {
   display: inline-block;
   border-radius: 0.8rem;
 }
-.home .walk .walk-text .btn a {
+.home .walk .walk-text a {
   text-decoration: none;
   color: inherit;
 }
-.home .walk .walk-text .walk-img {
+.home .walk .btn:hover {
+  color: #23293B;
+  background-color: white;
+  border: 1px solid #23293B;
+}
+.home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk .walk-text .walk-img img {
+.home .walk .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
