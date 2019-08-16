@@ -166,8 +166,12 @@ p {
   align-items: center;
   justify-content: center;
   background-color: #f4f4f4;
+  opacity: 0.9;
   padding-top: 20px;
   padding-bottom: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .navbar h1 {
   font-size: 3.6rem;
@@ -198,6 +202,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro {
+  margin-top: 80px;
 }
 .home .intro h2 {
   padding: 15px;
