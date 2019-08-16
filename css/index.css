@@ -236,11 +236,27 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-img {
+.home .walk .walk-text .btn {
+  background-color: #23293B;
+  border: none;
+  font-size: 1.6rem;
+  color: white;
+  padding: 1.2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  text-align: center;
+  display: inline-block;
+  border-radius: 0.8rem;
+}
+.home .walk .walk-text .btn a {
+  text-decoration: none;
+  color: inherit;
+}
+.home .walk .walk-text .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk .walk-img img {
+.home .walk .walk-text .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
