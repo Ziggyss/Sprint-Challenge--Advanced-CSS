@@ -4,6 +4,7 @@
     background-color:#f4f4f4;
     padding-top: 20px;
     padding-bottom: 10px;
+    
     h1 {
         font-size: 3.6rem;
     }
@@ -12,6 +13,10 @@
         .horizontalFlex();
         width: 40%;
         padding-top: 20px;
+
+        @media(@phone) {
+            width: 100%;
+        }
     }
 
     .navbarLinks a {

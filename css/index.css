@@ -179,6 +179,11 @@ p {
   width: 40%;
   padding-top: 20px;
 }
+@media (max-width:500px) {
+  .navbar .navbarLinks {
+    width: 100%;
+  }
+}
 .navbar .navbarLinks a {
   text-decoration: none;
   font-size: 1.6rem;
@@ -200,43 +205,66 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
+@media (max-width:500px) {
+  .home .intro img {
+    width: 100%;
+  }
+}
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 }
-.home .space-images img {
+.home img {
   width: 28%;
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
 }
-.home .visit-planets {
+.visit-planets {
   padding: 15px;
 }
-.home .visit-planets h3 {
+.visit-planets h3 {
   margin-top: 11px;
 }
-.home .visit-planets p {
+.visit-planets p {
   margin-top: 13px;
 }
-.home .walk {
+@media (max-width:500px) {
+  .visit-planets {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
   padding: 50px 60px;
   display: flex;
   justify-content: center;
 }
-.home .walk .walk-text {
+@media (max-width:500px) {
+  .walk {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+}
+.walk .walk-text {
   width: 50%;
 }
-.home .walk .walk-text h3 {
+@media (max-width:500px) {
+  .walk .walk-text {
+    width: 100%;
+  }
+}
+.walk .walk-text h3 {
   margin-bottom: 10px;
 }
-.home .walk .walk-text p {
+.walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-text .btn {
+.walk .walk-text .btn {
   background-color: #23293B;
   border: none;
   font-size: 1.6rem;
@@ -248,20 +276,30 @@ footer {
   display: inline-block;
   border-radius: 0.8rem;
 }
-.home .walk .walk-text a {
+@media (max-width:500px) {
+  .walk .walk-text .btn {
+    width: 95%;
+  }
+}
+.walk .walk-text a {
   text-decoration: none;
   color: inherit;
 }
-.home .walk .btn:hover {
+.walk .btn:hover {
   color: #23293B;
   background-color: white;
   border: 1px solid #23293B;
 }
-.home .walk .walk-img {
+.walk .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk .walk-img img {
+@media (max-width:500px) {
+  .walk .walk-img {
+    width: 100%;
+  }
+}
+.walk .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
