@@ -1,1 +1,31 @@
 // Navigation code here
+.navbar {
+   .columnFlex();
+    background-color:#f4f4f4;
+    opacity: 0.9;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    h1 {
+        font-size: 3.6rem;
+    }
+
+    .navbarLinks {
+        .horizontalFlex();
+        width: 40%;
+        padding-top: 20px;
+
+        @media(@phone) {
+            width: 100%;
+        }
+    }
+
+    .navbarLinks a {
+        text-decoration: none;
+        font-size: 1.6rem;
+        color: @header-font-color;
+    }
+}
